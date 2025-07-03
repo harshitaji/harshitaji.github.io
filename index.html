@@ -1,83 +1,87 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Harshita | AI Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand mb-0 h1 ml-5">   The Great Heritage of India</a>
-      </nav>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
     <style>
-        h1{
-            color: white;
-        }
-       
-        form{
-          margin-left: 35%;
-          font-size: large;
-          margin-top: 10%;
-          
-        }
-       
-        #imgji{
-            width: 500px;
-            height: 300px;
-        }
+      body {
+        background-color: #f8f9fa;
+      }
+      h1, h4, h6 {
+        color: #343a40;
+      }
+      .card-title {
+        font-weight: bold;
+      }
+      .project-img {
+        height: 200px;
+        object-fit: cover;
+      }
+      .intro-section {
+        margin: 40px;
+        text-align: center;
+      }
+      .section-title {
+        margin: 40px 0 20px;
+      }
     </style>
+  </head>
 
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand ml-4" href="#">👩‍💻 Harshita | AI Developer</a>
+    </nav>
 
-     <body>
-        <body>
-            <div class="row">
-              
-              <div class="col s3 m5">
-                <div class="card-panel card text-white bg-dark">
-                    <img id="imgji" src="https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
-                    <h7>Konark Sun Temple is a 13th-century CE Sun temple at Konark about 35 kilometres northeast from Puri on the coastline of Odisha, India. </h7>
-                    
-            </div>
-               </div>
+    <div class="intro-section">
+      <h1>Hello, I'm Harshita</h1>
+      <h5>🚀 Passionate about AI, FastAPI, LLMs, and modern web tools</h5>
+      <p>M.Tech in CSE (AI) from DIAT (DRDO) | Ex-Angular Dev | Building intelligent apps</p>
+    </div>
 
-                  
-      
-              <div class="col s1 m5">
-                  <div class="card-panel card text-white bg-dark">
-                    <img id="imgji" src="https://images.pexels.com/photos/894443/pexels-photo-894443.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
-                    <h7>Hawa Mahal is a palace in Jaipur, India approximately 300 kilometers from the capital city of Delhi. Built from red and pink sandstone, the palace sits on the edge of the City Palace, Jaipur, and extends to the Zenana, or women's chambers.</h7>
-             
-                  </div>
-                </div>
+    <div class="container">
+      <h4 class="section-title">🔧 Featured Project: Financial Insight Agent</h4>
+      <div class="card mb-3 shadow">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img class="card-img project-img" src="https://images.pexels.com/photos/4386377/pexels-photo-4386377.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="finance app">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">💼 Financial Insight Agent</h5>
+              <p class="card-text">An API-driven AI tool that processes financial CSV/Excel files, summarizes transactions, and answers user queries using Mistral-7B-Instruct via Hugging Face. Built with FastAPI + Pandas.</p>
+              <p class="card-text"><small class="text-muted">Technologies: FastAPI, HuggingFace, Pandas, Python, LLM</small></p>
+              <a href="https://github.com/your-username/financial-insight-agent" class="btn btn-dark" target="_blank">View Project</a>
             </div>
-            <div class="row">
-      
-                <div class="col s1 m5">
-                  <div class="card-panel card text-white bg-dark">
-                    <img id="imgji" src="https://images.pexels.com/photos/57901/pexels-photo-57901.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
-                    <h7>You must attedn Gaga aarti.The peace its give you is unvalueable.</h7>
-             
-                  </div>
-                </div>
-            
-    
-              <div class="col s1 m5">
-                <div class="card-panel card text-white bg-dark">
-                    <img id="imgji" src="https://images.pexels.com/photos/4334157/pexels-photo-4334157.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
-                    <h7>Kolkata Kolkata (formerly Calcutta) is the capital of India's West Bengal state. Founded as an East India Company trading post, it was India's capital under the British Raj from 1773–1911.</h7>
-                 
-                </div>
-              </div>
-              </div>
-      
-              
-                 
-            <br><br>
-           </body>
-                 
-                </div>
-            </div>
+          </div>
         </div>
-           
-        
-     </body>
-               
-            
+      </div>
+
+      <h4 class="section-title">🧰 Skills & Tools</h4>
+      <ul class="collection with-header z-depth-1">
+        <li class="collection-header"><h6>Languages</h6></li>
+        <li class="collection-item">Python, JavaScript, HTML/CSS</li>
+        <li class="collection-header"><h6>Frameworks & Tools</h6></li>
+        <li class="collection-item">FastAPI, Hugging Face, LangChain, Pandas, Streamlit, Angular</li>
+        <li class="collection-header"><h6>LLM & AI</h6></li>
+        <li class="collection-item">Mistral, Transformers, OpenAI, Retrieval-Augmented Generation (RAG)</li>
+      </ul>
+
+      <footer class="page-footer bg-dark mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 center white-text">
+              <p>🔗 Connect with me: 
+                <a href="https://github.com/your-username" class="white-text" target="_blank"><i class="material-icons">code</i></a>
+                <a href="https://www.linkedin.com/in/your-profile" class="white-text" target="_blank"><i class="material-icons">work</i></a>
+              </p>
+              <p>&copy; 2025 Harshita | AI Developer</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
